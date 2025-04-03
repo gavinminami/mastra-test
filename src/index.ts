@@ -3,6 +3,7 @@ import * as readline from "readline";
 
 const main = async () => {
   console.log("starting");
+  console.log("another change");
   const promptAgentWorkflow = mastra.getWorkflow("promptAgentWorkflow");
   const wf = promptAgentWorkflow.createRun();
 
