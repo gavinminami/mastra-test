@@ -5,6 +5,7 @@ const main = async () => {
   console.log("starting");
   console.log("another change");
   console.log("third change");
+  console.log("fourth change");
   const promptAgentWorkflow = mastra.getWorkflow("promptAgentWorkflow");
   const wf = promptAgentWorkflow.createRun();
 
